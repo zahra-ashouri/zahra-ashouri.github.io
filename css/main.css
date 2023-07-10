@@ -5221,6 +5221,40 @@ Created using IcoMoon - icomoon.io
   text-align: center;
   color: #fff; }
 
+/* Skill Style */
+.skill-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between; }
+
+.skill-column {
+      width: calc(25% - 10px); /* Set width for 4 columns with spacing */
+      margin-bottom: 20px;}
+
+.skill-level {
+      text-align: left;
+      font-weight: bold; }
+    .expert { color: green; }
+    .proficient { color: blue; }
+    .hands-on { color: orange; }
+    .familiar { color: gray; }
+
+.skill-list {
+      list-style-type: none;
+      margin: 0;
+      padding: 0; }
+
+.skill-item {
+      margin-bottom: 5px;
+      display: flex;
+      align-items: center;
+    }
+
+.skill-icon {
+      width: 20px;
+      height: 20px;
+      margin-right: 10px; }
+
 /* References Style */
 .cc-reference .card {
   padding: 40px; }
